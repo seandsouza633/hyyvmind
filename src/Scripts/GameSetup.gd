@@ -23,7 +23,7 @@ func spawn_players():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #The code in this method is just for testing purposes
-var one_kill = true
+var one_kill = false
 func _process(delta):
 	if(one_kill):
 		one_kill = false
